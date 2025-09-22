@@ -4,8 +4,9 @@ import { tracks } from '@/lib/data';
 
 export async function GET(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: { id: string } }
 ) {
+  const { params } = context;
   const track = tracks.find((t) => t.id === params.id);
   if (track) {
     return NextResponse.json(track);
