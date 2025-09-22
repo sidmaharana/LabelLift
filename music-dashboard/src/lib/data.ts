@@ -8,7 +8,7 @@ export interface Track {
   status: 'Uploaded' | 'Processing' | 'Live' | 'Rejected';
 }
 
-export let tracks: Track[] = [
+export const tracks: Track[] = [
   {
     id: '1',
     title: 'Ocean Drive',
