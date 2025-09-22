@@ -1,0 +1,18 @@
+:root {
+  --bs-primary: #4dabf7;
+  --bs-secondary: #adb5bd;
+  --bs-success: #40c057;
+  --bs-info: #3bc9db;
+  --bs-warning: #fcc419;
+  --bs-danger: #fa5252;
+  --bs-light: #343a40;
+  --bs-dark: #f8f9fa;
+  --bs-body-bg: #121212;
+  --bs-body-color: #f8f9fa;
+  --bs-border-color: #495057;
+}
+
+body {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
